@@ -36,14 +36,14 @@ The "<strong>x</strong>" inside the <strong>parantheses</strong> is what we call
 
 Alright, let's walk through on what happened. Inside <strong>function2(x)</strong>, we added a line that says <strong>return x + 3</strong>. What this means is that it just returns the value to the <strong>function</strong>. Without the <strong>return</strong>, nothing will be returned back to the <strong>function</strong> and it would render the <strong>function</strong> "pointless". So now, to test whether the <strong>function</strong> is working as it should, we want to call it. So how do we call it? With the <strong>print function</strong> of course! This is because, in <strong>function1()</strong>, we had assigned a <strong>print function</strong> within it, thus by calling the <strong>function</strong> just by writing the name of the <strong>function</strong> will give the output of the <strong>print function</strong> because it is a <strong>print function</strong>!
 
-It is possible to multiple arguments in a single function. The concept is the same, like an example below;
+It is possible to have multiple arguments in a single function. The concept is the same, like an example below;
 
         def function3(x,y):
             return x + y
         
         print(function3(5,6))
 
-If you were to run the code, you will get 11. In this case, since there are two <strong>argurments</strong>, <strong>"x"</strong> and <strong>"y"</strong>, whatever values you put will correspond to how the <strong>function</strong> was written.
+If you were to run the code, you will get 11. In this case, since there are two <strong>argurments</strong>, <strong>"x"</strong> and <strong>"y"</strong>, whatever values you put will correspond to how the <strong>function</strong> was written which in the previous case was <strong>x + y</strong>.
 
 Basically that is it for <strong>functions</strong>! The point is to understand the concept and how it works. You can also make any <strong>functions</strong> provided that you know the proper and correct <strong>synstaxes</strong>.
 
